@@ -780,11 +780,8 @@ public abstract class ComponentProcessor extends AbstractProcessor {
     private int androidMinSdk;
     private String versionName;
     private String dateBuilt;
-<<<<<<< HEAD
     private String licenseName;
-=======
     private boolean usesKotlin;
->>>>>>> 4c118abf0394a2244389cccc10d3a869e7ae5bc9
 
     protected ComponentInfo(Element element) {
       super(element.getSimpleName().toString(),  // Short name
